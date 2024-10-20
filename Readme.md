@@ -149,6 +149,7 @@ python manage.py runserver
 celery -A celery_tutorial beat -l info
 ```
 
-## RabiitMQ 
+## RabiitMQ
+- start RabbitMQ service
 - `http://localhost:15672`
-- # Celery_Tutorial
+
