@@ -138,16 +138,19 @@ below porstion will be in a new django-app
 ```sh
 celery -A celery_tutorial worker --pool=solo -l info
 ```
+![{7830E82C-44C7-4D40-98BA-D6EC95DDCAAF}](https://github.com/user-attachments/assets/0032d9eb-6d68-48db-a251-e2007a426943)
 
 - for the django running
 ```sh
 python manage.py runserver
 ```
+![{AEC35BA8-7652-466E-AEBF-B766CCDC8E9F}](https://github.com/user-attachments/assets/a2c055b9-2177-442f-ae6a-639761181366)
 
 - for the celery-beat
 ```sh
 celery -A celery_tutorial beat -l info
 ```
+![{606BD13C-017D-4C0A-B46C-449A3B931171}](https://github.com/user-attachments/assets/83674873-192f-4435-93ba-6d517f7018a3)
 
 ## RabiitMQ
 - start RabbitMQ service
