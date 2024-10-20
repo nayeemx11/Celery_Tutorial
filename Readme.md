@@ -156,3 +156,6 @@ celery -A celery_tutorial beat -l info
 - start RabbitMQ service
 - `http://localhost:15672`
 
+![{7DD7BB7C-7C25-4B3F-8229-D57CDBB3ABB5}](https://github.com/user-attachments/assets/7320a839-d978-474a-b2d6-73a1debb01d6)
+
+
